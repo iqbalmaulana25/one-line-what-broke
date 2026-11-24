@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Your password was correct. The database just forgot who you are — log in again and pretend this never happened.";
+  "Your password was right; the database simply forgot you exist. Log in again and we'll both pretend this never happened.";
 
 if (ENTRY.length < 1 || ENTRY.length > 200) {
   throw new Error(`entry is ${ENTRY.length} chars, must be 1-200`);
